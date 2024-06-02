@@ -1,0 +1,252 @@
+.king
+{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items:center;
+    justify-content:baseline;
+    font-family: "Lato" sans-serif;
+}
+
+.big{
+    width: 1200px;
+    height: auto;
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content:baseline;
+padding: 20% 0px 20% 5%;
+
+}
+.container {
+    background: linear-gradient(10deg, #706ECD, #62C6C0);
+    width: 150px;
+    height:auto;
+    padding: 3% 2% 3% 2%;
+    border-radius: 18px;
+    transition: 0.6s ease-out;
+    position: relative;
+    
+}
+.search-box {
+    
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: sticky;
+    position: relative;
+    
+     
+
+}
+
+.news {
+    cursor: pointer;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    height: auto;
+   padding: 30% 0px 30% 0px;
+    background-color:#2A5DBF;
+    border-radius: 70px;
+    border: none;
+    font-size: 100%;
+    color:white;
+    box-shadow: inset 0px 5px 20px 0px #18356C;
+    overflow: hidden;
+    animation: flip 1s;
+    max-width: 100%;
+}
+.calculation {
+    cursor: pointer;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 30% 0px 30% 0px;
+    background-color:#2A5DBF;
+    border-radius: 70px;
+    margin-top: 55%;
+    border: none;
+    font-size: 100%;
+    color:white;
+    box-shadow: inset 0px 5px 20px 0px #18356C;
+    overflow: hidden;
+    animation: flip 1s;
+    max-width: 100%;
+}
+.explanation {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30% 0px 30% 0px;
+    background-color:#2A5DBF;
+    border-radius: 70px;
+    margin-top: 55%;
+    border: none;
+    font-size: 100%;
+    color:white;
+    box-shadow: inset 0px 5px 20px 0px #18356C;
+    overflow: hidden;
+    animation: flip 1s;
+    max-width: 100%;
+}
+.postponed {
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 30% 0px 30% 0px;
+    background-color:#2A5DBF;
+    border-radius: 70px;
+    margin-top: 55%;
+    border: none;
+    box-shadow:black;
+    font-size: 100%;
+    color:white;
+    box-shadow: inset 0px 5px 20px 0px #18356C;
+    animation: flip 1s;
+    overflow: hidden;
+    max-width: 100%;
+    
+    
+}
+@keyframes flip {
+    0%, 100% {transform: rotateX(0);}
+    50% {transform: rotateX(-180deg);}
+    
+}
+
+.img1 {
+   
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+    transform: translate(20px, 0px);
+    position: relative;
+}
+.img2 {
+    transform: rotate(5deg);
+    width: 500px;
+    height: auto;
+    object-fit: contain;  
+    transform: translate(30%, -30%);
+    max-width: 100%;
+}
+
+.img3 {
+    width: 30px;
+    height: 300px;
+    transform: translate(300%, 65%);
+    
+
+}
+
+.img4 {
+    width: 30px;
+    height: 300px;
+    transform: translate(350%, 30%);
+    
+
+}
+
+
+
+.images {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: baseline;
+    padding-left: 50px;
+    
+}
+
+
+   @media(max-width: 1200px ){
+    .big{
+        width: 1000px;
+    }
+    
+   }
+
+   @media(max-width: 1000px ){
+    .big{
+        width: 768px;
+    }
+    .img1{
+        width: 300px;
+        transform: translateX(-30px);
+
+    }
+    .img2{
+        width: 300px;
+        transform: translate(50px, -70px);
+
+
+        
+    }
+    .img3{
+        width: 20px;
+        height: 200px;
+        transform: translate(3px,120px);
+    }
+    .img4{
+        width: 20px;
+        height: 200px;
+        transform: translate(12px,50px);
+    }
+    .images{
+        padding-right: 100px;
+    }
+
+    .container{
+        width: 10%;
+        height: 5%;
+        font-size: 10px;
+   }
+   
+
+   @media(max-width: 768px ){
+    .big{
+        width: 480px;
+    }
+    .img1{
+        width: 200px;
+        transform: translateX(-30px);
+
+    }
+    .img2{
+        width: 200px;
+        transform: translate(50px, -70px);
+
+
+        
+    }
+    .img3{
+        width: 15px;
+        height: 150px;
+        transform: translate(3px,100px);
+    }
+    .img4{
+        width: 150px;
+        height: 150px;
+        transform: translate(12px,30px);
+    }
+    .images{
+        padding-right: 100px;
+    }
+
+    .container{
+        width: 10%;
+        height: 5%;
+        font-size: 10px;
+   }
+  
+   }}
+
+  
